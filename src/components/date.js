@@ -1,6 +1,6 @@
 function Date () {
   return(
-    <div></div>
+    <div className="date">31.02.2073</div>
   )
 }
 

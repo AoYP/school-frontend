@@ -12,7 +12,7 @@ function Holidays() {
   const daysToHolidays = firstDayOfHolidays.diff(now, 'days')+1
 
   return(
-    <div>
+    <div className="holidays">
       {(month == 7 || month == 8) ? <div>Wakacje!</div> :
        <div>Szkoła...</div>}
       <div>{daysToHolidays}</div>
