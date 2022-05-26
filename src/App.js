@@ -1,4 +1,4 @@
-import Date from "./components/date";
+import Data from "./components/date";
 import PDF from "./components/pdf";
 import Announcements from "./components/announcements";
 import Currentlesson from "./components/current-lesson";
@@ -10,14 +10,14 @@ import Photos from "./components/photos";
 function App() {
   return (
     <div className="App">
-      <div class="container">
-        <div class="header"><Header /></div>
-        <div class="holidays"><Holidays /></div>
-        <div class="currentlesson"><Currentlesson /></div>
-        <div class="date"><Date /></div>
-        <div class="photos"><Photos /></div>
-        <div class="PDF"><PDF /></div>
-        <div class="announcements"><Announcements /></div>
+      <div className="container">
+        <div className="header"><Header /></div>
+        <div className="holidays"><Holidays /></div>
+        <div className="currentlesson"><Currentlesson /></div>
+        <div className="date"><Data /></div>
+        <div className="photos"><Photos /></div>
+        <div className="PDF"><PDF /></div>
+        <div className="announcements"><Announcements /></div>
      </div>
     </div>
   );
