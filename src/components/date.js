@@ -1,6 +1,6 @@
 function Date () {
   return(
-    <div>siema</div>
+    <div></div>
   )
 }
 
