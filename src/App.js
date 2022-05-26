@@ -1,4 +1,4 @@
-import Date from "./components/date";
+import Data from "./components/date";
 import PDF from "./components/pdf";
 import Announcements from "./components/announcements";
 import Currentlesson from "./components/current-lesson";
@@ -14,7 +14,7 @@ function App() {
         <div className="header"><Header /></div>
         <div className="holidays"><Holidays /></div>
         <div className="currentlesson"><Currentlesson /></div>
-        <div className="date"><Date /></div>
+        <div className="date"><Data /></div>
         <div className="photos"><Photos /></div>
         <div className="PDF"><PDF /></div>
         <div className="announcements"><Announcements /></div>
