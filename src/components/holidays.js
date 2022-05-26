@@ -13,7 +13,7 @@ function Holidays() {
 
   return(
     <div className="holidays">
-      {(month == 7 || month == 8) ? <div>Wakacje!</div> :
+      {(month === 7 || month === 8) ? <div>Wakacje!</div> :
        <div>Szkoła...</div>}
       <div>{daysToHolidays}</div>
     </div>
