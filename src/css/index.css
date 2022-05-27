@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container > * {
+  background-color: rgb(214, 223, 232);
+  border-radius: 2vw;
+}
+
+.header {
+  width: 100%;
+  height: 15vh;
+}
+
+.holidays {
+  width: 100%;
+  height: 25vh;
+}
+
+.currentlesson {
+  width: 100%;
+  height: 25vh;
+}
+
+.date {
+  width: 100%;
+  height: 25vh;
+}
+
+.photos {
+  width: 100%;
+  height: 55vh;
+}
+
+.PDF {
+  width: 100%;
+  height: 55vh;
+}
+
+.announcements {
+  width: 100%;
+  height: 25vh;
+}
+

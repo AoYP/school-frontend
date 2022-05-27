@@ -19,10 +19,10 @@ function Holidays() {
 
   return (
     <div className="holidays">
-      {month === 7 || month === 8 ? <div>Wakacje!</div> : <div>Szkoła...</div>}
-      <div>
-        <h1>{daysToHolidays}</h1> dni do wakacji
+      <div className='daysToHolidays'>
+        {daysToHolidays}
       </div>
+      <div>dni do wakacji</div>
     </div>
   );
 }

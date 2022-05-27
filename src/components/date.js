@@ -5,10 +5,10 @@ function Data () {
   const today = new Date();
 
   let hour = today.getHours();
-  if(hour < 10) {hour = '0' + hour}
+  if(hour < 10) hour = '0' + hour
 
   let minutes = today.getMinutes();
-  if(minutes < 10) {minutes = '0' + minutes}
+  if(minutes < 10) minutes = '0' + minutes
 
   const currentTime = hour + ":" + minutes;
   const date = today.getDate() + " " + monthNames[today.getMonth()] + " " + today.getFullYear();
@@ -25,7 +25,10 @@ function Data () {
   }, [time]);
 
   return(
-    <div className="date">{currentTime}<br />{date}</div>
+    <div className="date">
+      <div className="time">{currentTime}</div>
+      <div className="day">{date}</div>
+    </div>
   )
 }
 
