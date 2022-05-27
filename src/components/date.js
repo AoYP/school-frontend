@@ -3,7 +3,14 @@ import React, { useState, useEffect } from "react";
 function Data () {
   const monthNames = ["styczeń","luty","marzec","kwiecień","maj","czerwiec","lipiec","sierpień","wrzesień","październik","listopad","grudzień"]
   const today = new Date();
-  const currentTime = today.getHours() + ":" + today.getMinutes();
+
+  let hour = today.getHours();
+  if(hour < 10) {hour = '0' + hour}
+
+  let minutes = today.getMinutes();
+  if(minutes < 10) {minutes = '0' + minutes}
+
+  const currentTime = hour + ":" + minutes;
   const date = today.getDate() + " " + monthNames[today.getMonth()] + " " + today.getFullYear();
 
   const [time, setTime] = useState(currentTime)
