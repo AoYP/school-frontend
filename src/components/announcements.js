@@ -1,7 +1,5 @@
 function Announcements() {
-    return(
-        <div className="announcements">ogloszenia</div>
-    )
+  return <div className='announcements'>ogloszenia</div>
 }
 
 export default Announcements

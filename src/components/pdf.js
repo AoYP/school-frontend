@@ -1,7 +1,5 @@
-function PDF () {
-    return(
-        <div className="PDF">PDF</div>
-    )
+function PDF() {
+  return <div className='PDF'>PDF</div>
 }
 
 export default PDF

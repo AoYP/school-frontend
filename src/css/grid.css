@@ -1,26 +1,40 @@
-.container {  
+.container {
   display: grid;
   grid-template-columns: 0.4fr 1.3fr 1.3fr;
   grid-template-rows: 0.1fr 1fr 1fr 1fr;
   gap: 2vh 2vw;
   grid-auto-flow: row;
   grid-template-areas:
-    "header header header"
-    "holidays photos PDF"
-    "currentlesson photos PDF"
-    "date announcements announcements";
+    'header header header'
+    'holidays photos PDF'
+    'currentlesson photos PDF'
+    'date announcements announcements';
 }
 
-.header { grid-area: header; }
+.header {
+  grid-area: header;
+}
 
-.holidays { grid-area: holidays; }
+.holidays {
+  grid-area: holidays;
+}
 
-.currentlesson { grid-area: currentlesson; }
+.currentlesson {
+  grid-area: currentlesson;
+}
 
-.date { grid-area: date; }
+.date {
+  grid-area: date;
+}
 
-.photos { grid-area: photos; }
+.photos {
+  grid-area: photos;
+}
 
-.PDF { grid-area: PDF; }
+.PDF {
+  grid-area: PDF;
+}
 
-.announcements { grid-area: announcements; }
+.announcements {
+  grid-area: announcements;
+}

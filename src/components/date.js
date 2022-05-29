@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import '../css/date.css'
 
 function Data () {
   const monthNames = ["styczeń","luty","marzec","kwiecień","maj","czerwiec","lipiec","sierpień","wrzesień","październik","listopad","grudzień"]
@@ -25,9 +26,9 @@ function Data () {
   }, [time]);
 
   return(
-    <div className="date">
-      <div className="time">{currentTime}</div>
-      <div className="day">{date}</div>
+    <div className='date'>
+      <div className='time'>{currentTime}</div>
+      <div className='day'>{date}</div>
     </div>
   )
 }
