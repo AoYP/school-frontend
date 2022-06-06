@@ -1,10 +1,8 @@
-import Data from './components/date'
 import PDF from './components/pdf'
 import Announcements from './components/announcements'
-import Currentlesson from './components/current-lesson'
 import Header from './components/header'
 import Holidays from './components/holidays'
-import Photos from './components/photos'
+import Weather from './components/weather'
 
 function App() {
   return (
@@ -14,23 +12,15 @@ function App() {
           <Header />
         </div>
 
-        <div className='cell holidays'>
+        <div className='cell card1'>
           <Holidays />
         </div>
 
-        <div className='cell currentlesson'>
-          <Currentlesson />
+        <div className='cell card2'>
+          <Weather />
         </div>
 
-        <div className='cell date'>
-          <Data />
-        </div>
-
-        <div className='cell photos'>
-          <Photos />
-        </div>
-
-        <div className='cell PDF'>
+        <div className='cell pdf'>
           <PDF />
         </div>
 

@@ -1,5 +1,4 @@
 import moment from 'moment'
-import '../css/holidays.css'
 
 function Holidays() {
   function lastFriday() {
@@ -16,11 +15,9 @@ function Holidays() {
   if (daysToHolidays < 0) daysToHolidays = 365 + daysToHolidays
 
   return (
-    <div className='holidays-content'>
-      <div>
-        <div className='holidays-title'>{daysToHolidays}</div>
-        <div className='holidays-subtitle'>dni do wakacji</div>
-      </div>
+    <div>
+      <div className='title'>{daysToHolidays}</div>
+      <div className='subtitle'>dni do wakacji</div>
     </div>
   )
 }
