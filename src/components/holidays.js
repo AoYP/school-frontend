@@ -1,9 +1,6 @@
 import moment from 'moment'
 
 function Holidays() {
-  const date = new Date()
-  const month = date.getMonth()
-
   function lastFriday() {
     let sub = 0
     const lastDay = moment().month('june').endOf('month')
@@ -18,11 +15,9 @@ function Holidays() {
   if (daysToHolidays < 0) daysToHolidays = 365 + daysToHolidays
 
   return (
-    <div className="holidays">
-      {month === 7 || month === 8 ? <div>Wakacje!</div> : <div>Szkoła...</div>}
-      <div>
-        <h1>{daysToHolidays}</h1> dni do wakacji
-      </div>
+    <div>
+      <div className='title'>{daysToHolidays}</div>
+      <div className='subtitle'>dni do wakacji</div>
     </div>
   )
 }

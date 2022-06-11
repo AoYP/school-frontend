@@ -1,34 +1,30 @@
-import Data from './components/date'
 import PDF from './components/pdf'
 import Announcements from './components/announcements'
-import Currentlesson from './components/current-lesson'
 import Header from './components/header'
 import Holidays from './components/holidays'
-import Photos from './components/photos'
+import Weather from './components/weather'
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <div className="header">
+    <div className='App'>
+      <div className='container'>
+        <div className='cell header'>
           <Header />
         </div>
-        <div className="holidays">
+
+        <div className='cell card1'>
           <Holidays />
         </div>
-        <div className="currentlesson">
-          <Currentlesson />
+
+        <div className='cell card2'>
+          <Weather />
         </div>
-        <div className="date">
-          <Data />
-        </div>
-        <div className="photos">
-          <Photos />
-        </div>
-        <div className="PDF">
+
+        <div className='cell pdf'>
           <PDF />
         </div>
-        <div className="announcements">
+
+        <div className='cell announcements'>
           <Announcements />
         </div>
       </div>
