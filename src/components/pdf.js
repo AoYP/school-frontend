@@ -31,7 +31,7 @@ function PDF() {
         file="Konfiguraca przełacznika Planet - VLAN.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page pageNumber={pageNumber} height="400" />
+        <Page pageNumber={pageNumber} width="800" />
       </Document>
       <p>
         Page {pageNumber} of {numPages}
