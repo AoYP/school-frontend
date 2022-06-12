@@ -17,3 +17,20 @@ body {
   padding: 16px;
   height: 100%;
 }
+
+.announcements {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.heading {
+  font-size: 3em;
+  margin: 2vw;
+  margin-bottom: 0;
+}
+
+.content {
+  font-size: 1.3em;
+  margin: 2vw;
+}
