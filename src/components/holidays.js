@@ -11,7 +11,7 @@ function Holidays() {
 
   const now = moment()
   const firstDayOfHolidays = lastFriday()
-  let daysToHolidays = firstDayOfHolidays.diff(now, 'days') - 1
+  let daysToHolidays = firstDayOfHolidays.diff(now, 'days')
   if (daysToHolidays < 0) daysToHolidays = 365 + daysToHolidays
 
   return (
